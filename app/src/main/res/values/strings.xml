@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BibliotekaRMA</string>
+    <string name="pretraga">Search</string>
+    <string name="dodaj_knjigu">Add Book</string>
+    <string name="dodaj_kategoriju">Add Category</string>
+    <string name="ime_autora">Author Name</string>
+    <string name="naziv_knjige">Name of Book</string>
+    <string name="upisi_knjigu">Add Book</string>
+    <string name="ponisti">Back</string>
+    <string name="nadji_sliku">Find Picture</string>
+    <string name="povratak">Back</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kategorije">Category</string>
+    <string name="autori">Authors</string>
+    <string name="add_book_online">Add book online</string>
+
+</resources>

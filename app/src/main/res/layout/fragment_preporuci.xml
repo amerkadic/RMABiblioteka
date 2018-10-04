@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/sKontakti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/fNaslovna"
+            app:srcCompat="@drawable/ic_launcher_background"
+            android:layout_width="155dp"
+            android:layout_height="131dp"
+            android:layout_weight="1"
+            android:padding="2dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fNaziv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Naziv" />
+
+            <TextView
+                android:id="@+id/fAutor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Ime i prezime" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/fDatumObjavljivanja"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Datum" />
+
+                <TextView
+                    android:id="@+id/fBrojStranica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="BrojStranica" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/fOpis"
+                android:layout_width="164dp"
+                android:layout_height="500dp"
+                android:layout_weight="1"
+                android:text="Opis" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/dPosalji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Posalji" />
+
+</LinearLayout>

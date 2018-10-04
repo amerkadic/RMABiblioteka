@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BibliotekaRMA</string>
+    <string name="pretraga">Pretraga</string>
+    <string name="dodaj_knjigu">Dodaj Knjigu</string>
+    <string name="dodaj_kategoriju">Dodaj Kategoriju</string>
+    <string name="ime_autora">Ime Autora</string>
+    <string name="naziv_knjige">Naziv Knjige</string>
+    <string name="upisi_knjigu">Upisi Knjigu</string>
+    <string name="ponisti">Ponisti</string>
+    <string name="nadji_sliku">Nadji Sliku</string>
+    <string name="povratak">Povratak</string>
+
+    <string name="add_book_online">Dodaj knjigu online</string>
+</resources>
